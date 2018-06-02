@@ -152,7 +152,7 @@ html, body{
   line-height: 150px;
   text-align: center;
   box-sizing: border-box;
-  background-color: blue;
+
 }
 
 .left {
@@ -162,15 +162,15 @@ html, body{
 }
 @-webkit-keyframes MoveLeft {
   0% {
-    -webkit-transform: translate(-100%, 0);
-            transform: translate(-100%, 0);
+    -webkit-transform: translateX(-100%, 0);
+            transform: translateX(-100%, 0);
             opacity: 0;
   }
-  100% {
+  /*100% {
     -webkit-transform: translateX(-100%, 0);
             transform: translateX(-100%, 0);
             opacity: 1;
-  }
+  }*/
 }
 
 .right {
@@ -179,15 +179,15 @@ html, body{
 }
 @-webkit-keyframes MoveRight {
   0% {
-    -webkit-transform: translate(100%, 0);
-            transform: translate(100%, 0);
+    -webkit-transform: translateX(100%, 0);
+            transform: translateX(100%, 0);
             opacity: 0;
   }
-  100% {
+  /*100% {
     -webkit-transform: translateX(100%, 0);
             transform: translateX(100%, 0);
             opacity: 1;
-  }
+  }*/
 }
 
 @media only screen and (max-width: 600px) {
