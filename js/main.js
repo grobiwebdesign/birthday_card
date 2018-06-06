@@ -11,3 +11,8 @@ jQuery(document).ready(function($){
 	});
 	
 });
+
+//fadein on load
+$(document).ready(function(){
+    $('.hidden').removeClass('hidden');
+});

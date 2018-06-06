@@ -66,6 +66,14 @@ html, body{
     margin-top: 0.5em;
   }
 
+.top{
+    transition: opacity 4s;
+    opacity: 1;
+}
+
+.hidden {
+    opacity: 0;
+}
 
 .between{
     color: palevioletred;
@@ -116,11 +124,8 @@ html, body{
 }
 
 .title{
-    font-size: 3rem;
-    z-index: 1;    
-}
-
-.title > .fa-birthday-cake{
+    font-size: 2.5rem;
+    z-index: 1; 
     display: inline-block;
 }
 
@@ -136,16 +141,18 @@ html, body{
   }
 
 .left, .right{
-    float: left;
     width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
     text-align: center;
-    opacity: 0;
-
+    box-sizing: border-box;
 }
+
 
 //sliding door effect
 
-.left,
+/*.left,
 .right {
   display: inline-block;
   position: relative;
@@ -188,7 +195,7 @@ html, body{
             transform: translateX(100%, 0);
             opacity: 1;
   }
-}
+}*/
 
 @media only screen and (max-width: 600px) {
     .title{
