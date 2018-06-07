@@ -1,0 +1,23 @@
+//header
+
+#top{
+    background: palevioletred;
+    position: relative;
+    z-index: 1;
+}
+
+//slanted
+
+#top:after{
+    background: inherit;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 30%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-3deg);
+    transform-origin: 100%;
+    z-index: -1;
+}
