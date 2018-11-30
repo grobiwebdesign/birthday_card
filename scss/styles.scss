@@ -1,0 +1,26 @@
+//base
+
+@import 'base/_mixins.scss';
+@import 'base/_reset.scss';
+@import 'base/_variables.scss';
+@import 'base/_base.scss';
+
+//layouts
+
+@import 'layouts/_header.scss';
+@import 'layouts/_divider.scss';
+@import 'layouts/_middle.scss';
+@import 'layouts/_footer.scss';
+
+//modules
+
+@import 'modules/_blocks.scss';
+@import 'modules/_buttons.scss';
+@import 'modules/_components.scss';
+@import 'modules/_typography.scss';
+
+//animations
+@import 'animations/_mouse.scss';
+@import 'animations/_fadein.scss';
+@import 'animations/_slidingdoorleft.scss';
+@import 'animations/_slidingdoorright.scss';
